@@ -2,12 +2,16 @@ body {background-color: #D4F1E3;}
 
 h2{ 
 color:#826AED;
-font-size:200%;
-letter-spacing:10px;}
+font-size:250%;
+letter-spacing:3px;
+margin-top:90px;
+text-align:center;
+font-style:oblique;
+}
 
-ul{
+nav{
   list-style-type: none; 
-  bacground-color: #826AED; 
+  bacground-color: #F0E4F1; 
   width: 150%; 
   overflow: hidden; 
   position: fixed; 
@@ -15,6 +19,7 @@ ul{
   left: 0; 
   top: 0; 
   margin: 0; 
+  font-size:250%;
 }
 
 li{
@@ -29,6 +34,6 @@ li a{
 }
 
 li a:hover {
-  background-color: pink;
-    color: white;
+  background-color:#FCDBD9;
+    color: grey;
 }
